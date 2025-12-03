@@ -62,12 +62,12 @@ export function Details() {
           <h1 className="text-4xl font-extrabold text-gray-800 capitalize mb-4">
             {pokemon.name}
           </h1>
-          <div className="flex justify-center gap-2 mb-8">
+          <div className="flex justify-center gap-4 mb-8">
             {pokemon.types.map(({ type }) => (
               <span
                 key={type.name}
                 className="bg-gray-200 text-gray-700 px-4 py-1 rounded-full font-semibold uppercase text-sm tracking-wide"
-              >
+              > 
                 {type.name}
               </span>
             ))}
